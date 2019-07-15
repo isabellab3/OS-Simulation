@@ -1,8 +1,5 @@
-########################################
-##
-## Makefile
-## LINUX compilation 
-##
+##############################################
+## Makefile				     #
 ##############################################
 
 
@@ -40,7 +37,7 @@ $(PROGRAM_0): $(ALL_OBJ0)
 #Compiling all
 
 all: 	
-		make $(PROGRAM_0)
+	make $(PROGRAM_0)
 
 
 #Clean obj files
