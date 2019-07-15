@@ -3,9 +3,6 @@
 ##############################################
 
 
-
-
-
 #FLAGS
 C++FLAG = -g -std=c++11 -Wall
 
@@ -35,13 +32,11 @@ $(PROGRAM_0): $(ALL_OBJ0)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(ALL_OBJ0) $(INCLUDES) $(LIBS_ALL)
 
 #Compiling all
-
 all: 	
 	make $(PROGRAM_0)
 
 
 #Clean obj files
-
 clean:
 	(rm -f *.o; rm -f main)
 
