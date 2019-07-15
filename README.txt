@@ -11,8 +11,9 @@ $ ./main
 The commands for the program once it is running are described below.
 
 ###### If you want to remove the executable file, type:
+```
 $ make clean
-
+```
 
 ###### Assignment Description:
 
