@@ -60,6 +60,8 @@ Our simulation allows such nonsense as running the program that is not in the RA
 Cascading termination means that if a process terminates, all its descendants terminate with it.
 
 
+
+
 ###### **How to run:**
 
 To compile, type in a terminal:
@@ -68,7 +70,7 @@ To compile, type in a terminal:
 Then run the program by typing:
 > $ ./main
 
-The commands for the program once it is running are described below.
+The commands for the program once it is running are described above.
 
 If you wish to remove the file main.o made by typing ```make all```, type:
 > $ make clean
