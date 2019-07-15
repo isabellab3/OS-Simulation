@@ -12,8 +12,17 @@
 class OperatingSystem {
     public:
         OperatingSystem(int & number_of_hard_disks_, unsigned int & RAM_, unsigned int & page_size_) : 
-            CPU(1), number_of_processes(1), timestamp(0), number_of_hard_disks(number_of_hard_disks_), page_size(page_size_), RAM(RAM_),
-            number_of_frames(RAM_ / page_size_), ready_queue(0), hard_disks(number_of_hard_disks_), frames(0) {
+            CPU(1), 
+            number_of_processes(1), 
+            timestamp(0), 
+            number_of_hard_disks(number_of_hard_disks_), 
+            page_size(page_size_), 
+            RAM(RAM_),
+            number_of_frames(RAM_ / page_size_), 
+            ready_queue(0), 
+            hard_disks(number_of_hard_disks_), 
+            frames(0) {
+                
             // Creates initial process
             PCB* process_1 = new PCB{ number_of_processes };
             process_1->SetParent(1); //First process has no parent
