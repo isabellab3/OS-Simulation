@@ -60,7 +60,7 @@ Our simulation allows such nonsense as running the program that is not in the RA
 Cascading termination means that if a process terminates, all its descendants terminate with it.
 
 
-###### How to run:
+###### **How to run:**
 
 To compile, type in a terminal:
 > $ make all
