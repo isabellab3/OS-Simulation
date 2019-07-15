@@ -8,7 +8,7 @@ Then run the program by typing:
 
 The commands for the program once it is running are described below.
 
-If you want to remove the file main.o make by typing ```make all```, type:
+If you wish to remove the file main.o made by typing ```make all```, type:
 > $ make clean
 
 
