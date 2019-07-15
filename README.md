@@ -1,16 +1,4 @@
-###### How to run:
-
-To compile, type in a terminal:
-> $ make all
-
-Then run the program by typing:
-> $ ./main
-
-The commands for the program once it is running are described below.
-
-If you wish to remove the file main.o made by typing ```make all```, type:
-> $ make clean
-
+This was a school project completed for my operating systems class in Spring 2019. 
 
 ###### Assignment Description:
 
@@ -67,8 +55,20 @@ When choosing a PID for the new process start from 2 (1 belongs to the first sys
  
 **S m**   Shows the state of memory. For each used frame display the process number that occupies it and the page number stored in it. The enumeration of pages and frames starts from 0.
 
- 
-Comments:
 
 Our simulation allows such nonsense as running the program that is not in the RAM. We allow that to simplify the assignment. But, obviously, such situation cannot happen in a real system.
 Cascading termination means that if a process terminates, all its descendants terminate with it.
+
+
+###### How to run:
+
+To compile, type in a terminal:
+> $ make all
+
+Then run the program by typing:
+> $ ./main
+
+The commands for the program once it is running are described below.
+
+If you wish to remove the file main.o made by typing ```make all```, type:
+> $ make clean
