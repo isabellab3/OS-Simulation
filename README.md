@@ -64,7 +64,7 @@ Cascading termination means that if a process terminates, all its descendants te
 
 ###### **How to run:**
 
-To compile, type in a terminal:
+To compile, type:
 > $ make all
 
 Then run the program by typing:
